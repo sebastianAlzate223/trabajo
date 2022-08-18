@@ -1,0 +1,126 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "name": "drinks"
+    },
+    {
+      "category_id": 2,
+      "name": "lunch"
+    },
+    {
+      "category_id": 3,
+      "name": "food"
+    },
+    {
+      "category_id": 4,
+      "name": "sea"
+    },
+    {
+      "category_id": 5,
+      "name": "smartphones"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone",
+      "price": 2800000,
+      "available": true,
+      "best_seller": true,
+      "categories": [5],
+      "img": "https://cdnn21.img.ria.ru/images/07e5/09/1d/1752362987_0:226:1436:1034_1920x0_80_0_0_38214c44d61c305b51e78f6a0a53a2cd.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 2,
+      "name": "Coca Cola",
+      "price": 4000,
+      "available": false,
+      "best_seller": false,
+      "categories": [1],
+      "img": "data:image/jpeg;base64,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",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 3,
+      "name": "Cerveza",
+      "price": "10.000",
+      "available": true,
+      "best_seller": true,
+      "categories": [1],
+      "img": "https://www.lavanguardia.com/files/image_449_220/uploads/2020/07/13/5f0c78598c987.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 4,
+      "name": "Camarones",
+      "price": 20000,
+      "available": false,
+      "best_seller": false,
+      "categories": [3, 4],
+      "img": "https://img.lalr.co/cms/2013/11/26162401/camarones1127-1000.jpg?size=xl&ratio=r40_21",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 5,
+      "name": "Pizza",
+      "price": 30000,
+      "available": true,
+      "best_seller": true,
+      "categories": [2, 3],
+      "img": "https://www.hola.com/imagenes/cocina/recetas/20220208204252/pizza-pepperoni-mozzarella/1-48-890/pepperoni-pizza-abob-c.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 6,
+      "name": "Buñuelos",
+      "price": 2000,
+      "available": true,
+      "best_seller": false,
+      "categories": [2, 3],
+      "img": "https://antojandoando.com/wp-content/uploads/2014/12/bunuelos-pint1-pq1.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 7,
+      "name": "Trucha",
+      "price": 25000,
+      "available": false,
+      "best_seller": false,
+      "categories": [2, 3, 4],
+      "img": "https://hablemosdepeces.com/wp-content/uploads/2022/04/trucha-scaled.jpeg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 8,
+      "name": "LG Flex",
+      "price": 8000000,
+      "available": true,
+      "best_seller": false,
+      "categories": [5],
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRxxocF7hBxhHakq5rKsoVTPVlH2Nzws7U1g&usqp=CAU",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 9,
+      "name": "HTC One",
+      "price": 1500000,
+      "available": true,
+      "best_seller": true,
+      "categories": [5],
+      "img": "https://andro4all.com/hero/2014/04/HTC-One-M8.jpg?width=1200&aspect_ratio=1200:631",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    },
+    {
+      "id": 10,
+      "name": "Ajiaco",
+      "price": 15000,
+      "available": false,
+      "best_seller": true,
+      "categories": [2, 3],
+      "img": "https://t2.uc.ltmcdn.com/es/posts/5/7/6/como_hacer_ajiaco_42675_orig.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu."
+    }
+  ]
+}
